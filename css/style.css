@@ -556,6 +556,49 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
+#fh5co-press .fh5co-press-description{
+  background: #fff;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  min-height: 500px;
+  min-width: 100%;
+}
+#fh5co-press .fh5co-press-description .fh5co-press-text{
+  width: 100%;
+  float: left;
+  padding: 20px;
+
+}
+
+#fh5co-press .fh5co-press-description .fh5co-press-text .fh5co-press-title {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+  position: relative;
+}
+#fh5co-press .fh5co-press-description .fh5co-press-text .fh5co-press-title .fh5co-border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 30px;
+  background: #99E368;
+}
+
+
 #fh5co-press .fh5co-press-item {
   background: #fff;
   float: left;
@@ -581,6 +624,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-press .fh5co-press-item .fh5co-press-img {
   width: 50%;
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item .fh5co-press-text,
   #fh5co-press .fh5co-press-item .fh5co-press-img {
