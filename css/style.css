@@ -559,6 +559,24 @@ h1, h2, h3, h4, h5, h6 {
   width:100%;
   border: 1px solid black;
   max-height:150px;
+  opacity:0.5;
+}
+
+#fh5co-features .fh5co-service.action {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+#fh5co-features .fh5co-service.action.action-primary:hover img, #fh5co-features .fh5co-service.action.action-primary:active img, #fh5co-features .fh5co-service.action.action-primary:focus img{
+  box-shadow: none;
+}
+#fh5co-features .fh5co-service.action:hover img, #fh5co-features .fh5co-service.action:active img, #fh5co-features .fh5co-service.action:focus img {
+  outline: none !important;
+  opacity:1.0;
+}
+
+#fh5co-features .fh5co-service.action.action-default:hover, #fh5co-features .fh5co-service.action.action-default:focus, #fh5co-features .fh5co-service.action.action-default:active {
+  border-color: transparent;
 }
 
 #fh5co-press .fh5co-press-description{
@@ -578,11 +596,11 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 350px;
   min-width: 70%;
 }
+
 #fh5co-press .fh5co-press-description .fh5co-press-text{
   width: 100%;
   float: left;
   padding: 10px;
-
 }
 
 #fh5co-press .fh5co-press-description .fh5co-press-text .fh5co-press-title {
