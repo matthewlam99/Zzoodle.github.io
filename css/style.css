@@ -59,6 +59,32 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+form {
+    margin: 0 0 2em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  
+  }
+
+    form .field {
+      margin: 0 0 2em 0;
+    }
+
+      form .field label {
+        margin-top: -1.5em;
+      }
+
+      form .field:first-child label {
+        margin-top: 0;
+      }
+
+    form > :last-child {
+      margin-bottom: 0;
+    }
+
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -647,6 +673,8 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
+
+
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item {
     display: block !important;
