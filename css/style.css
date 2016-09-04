@@ -595,6 +595,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   min-height: 350px;
   min-width: 70%;
+  max-width: 70%;
 }
 
 #fh5co-press .fh5co-press-description .fh5co-press-text{
