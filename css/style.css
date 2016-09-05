@@ -660,6 +660,57 @@ form {
   width:40%;
   padding-top: 60px;
 }
+#fh5co-press .fh5co-press-contact{
+  background: #fff;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  min-height: 350px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#fh5co-press .fh5co-press-contact .fh5co-press-text{
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+#fh5co-press .fh5co-press-contact .fh5co-press-text .fh5co-press-title {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+  position: relative;
+}
+#fh5co-press .fh5co-press-contact .fh5co-press-text .fh5co-press-title .fh5co-border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 30px;
+  background: #99E368;
+}
+
+#fh5co-press .fh5co-press-contact .fh5co-press-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-size: cover;
+  width:40%;
+  padding-top: 60px;
+}
 
 #fh5co-press .fh5co-press-item {
   background: #fff;
