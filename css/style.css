@@ -311,7 +311,10 @@ form {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 7em 0;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 2em 0;
+  padding-top: 7em;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -415,6 +418,7 @@ form {
   border-radius: 5px;
   margin-bottom: 40px;
   position: relative;
+  min-height: 500px;
 }
 #fh5co-pricing .price-box.popular {
   border: 2px solid #99E368;
@@ -484,13 +488,13 @@ form {
   background: #fff;
   text-align: center;
   color: #7f7f7f;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   position: relative;
 }
 @media screen and (max-width: 992px) {
   #fh5co-our-services .box {
     min-height: inherit;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
 }
 #fh5co-our-services .box .icon {
@@ -498,8 +502,8 @@ form {
   height: 85px;
   margin: 0 auto;
   top: 0;
-  margin-top: -70px;
-  margin-bottom: 30px;
+  margin-top: -60px;
+  margin-bottom: 20px;
   position: relative;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -543,7 +547,7 @@ form {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 #fh5co-our-services .box h3 {
   margin: 0 0 20px 0;
@@ -833,6 +837,8 @@ form {
   margin-bottom: 40px;
   float: left;
   width: 100%;
+  min-height: 400px;
+
 }
 .person img {
   display: block;
